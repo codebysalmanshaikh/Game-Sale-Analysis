@@ -1,54 +1,3 @@
-📊 Insights from SQL Analysis
-
-
-1. Overall Sales Performance
-
-Total Global Sales: 7,623.23 million units
-
-Total Games in Dataset: 5,548
-
-Average Sales per Game: ~1.37 million units
-
-💡 The gaming market is huge, but most titles sell below blockbuster levels.
-
-
-2. Top Performing Platforms
-
-🎮 PlayStation 2 (PS2): 1,082.91M units (885 games)
-
-🎮 Xbox 360: 880.97M units (578 games)
-
-🎮 PlayStation 3 (PS3): 806.24M units (624 games)
-
-🎮 Wii: 806.38M units (472 games)
-
-💡 Sony’s PlayStation and Microsoft’s Xbox have historically dominated global game sales.
-
-
-3. Top Genres by Global Sales
-
-⚔️ Action: 1,484.05M units
-
-🏆 Sports: 1,128.38M units
-
-🔫 Shooter: 948.58M units
-
-🎭 Role-Playing & Platform also hold significant shares
-
-💡 Gamers prefer action-driven, competitive, and sports-oriented titles.
-
-
-4. Sales Trends Over the Years
-
-📈 1980–1990s: Early gaming era with modest sales
-
-🚀 2000–2010: Explosive growth, peak with PS2, Xbox 360, Wii
-
-📉 Post-2010: Sales decline (likely due to digital distribution not captured here)
-
-💡 The 2000s were the golden age of physical game sales.
-
-
 🎮 Video Game Sales Analysis
 📌 Project Overview
 
@@ -67,6 +16,8 @@ Visualization with Excel & Power BI
 
 Storytelling with data
 
+
+
 🛠️ Tools & Technologies
 
 Excel → Data cleaning, Pivot tables, Charts
@@ -77,13 +28,17 @@ MySQL → Data querying & aggregation
 
 Python (Pandas, Matplotlib/Seaborn) → Deeper exploration (planned in next steps)
 
+
+
 📂 Dataset
 
 Source: Kaggle (Video Game Sales Dataset)
 
-Size: 16,598 records (2 dropped due to missing values)
+Size: 16,598 records
 
 Fields: Rank, Name, Platform, Year, Genre, Publisher, Regional Sales, Global Sales
+
+
 
 🔎 Workflow
 
@@ -95,6 +50,7 @@ Standardized column formats (Year, Sales figures)
 
 Added calculated fields (Total_Sales_Check, Decade, Sales_Mismatch_Flag)
 
+
 2. Exploratory Analysis (Excel)
 
 Built Pivot Tables & Charts
@@ -102,6 +58,7 @@ Built Pivot Tables & Charts
 Added slicers for interactive filtering
 
 Explored trends across platforms, genres, and years
+
 
 3. SQL Analysis (MySQL)
 
@@ -112,6 +69,7 @@ Ranked platforms & genres by global sales
 Analyzed yearly sales trends
 
 Identified top publishers and regional performance
+
 
 4. Power BI Dashboard (Work in Progress)
 
@@ -127,6 +85,7 @@ Regional sales breakdown
 
 Publisher performance
 
+
 5. Python Analysis (Next Step)
 
 Load dataset with Pandas
@@ -138,7 +97,8 @@ Create visualizations with Matplotlib/Seaborn
 
 
 📊 Insights
-Overall Sales Performance
+
+1. Overall Sales Performance
 
 Total Global Sales: 7,623.23 million units
 
@@ -148,7 +108,8 @@ Average Sales per Game: ~1.37 million units
 
 💡 The gaming market is huge, but most titles sell below blockbuster levels.
 
-Top Performing Platforms
+
+2. Top Performing Platforms
 
 🎮 PS2: 1,082.91M units (885 games)
 
@@ -160,7 +121,8 @@ Top Performing Platforms
 
 💡 Sony’s PlayStation and Microsoft’s Xbox have historically dominated global game sales.
 
-Top Genres by Sales
+
+3. Top Genres by Sales
 
 ⚔️ Action: 1,484.05M units
 
@@ -172,7 +134,8 @@ Top Genres by Sales
 
 💡 Gamers prefer action-driven, competitive, and sports-oriented titles.
 
-Sales Trends Over Time
+
+4. Sales Trends Over Time
 
 📈 1980–1990s: Early gaming era with modest sales
 
