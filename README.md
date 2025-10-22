@@ -3,17 +3,17 @@
 Analyzing global video game sales to uncover insights on platforms, genres, publishers, and regional performance using Excel, SQL, Python, and Power BI.
 
 
-## #### **📌 Overview**
+**📌 Overview**
 
 This project focuses on descriptive analytics to understand sales trends and business performance in the video game industry.
 It demonstrates end-to-end data analysis — from cleaning and querying to visualization and storytelling — using multiple analytical tools.
 
 
-## #### # ❓ Problem Statement
+# ❓ Problem Statement
 
 To identify key factors that influence global video game sales and determine which platforms, genres, and publishers dominate the market.
 
-## # 🗂️ Dataset
+# 🗂️ Dataset
 
 Source: Kaggle (Video Game Sales Dataset)
 
@@ -21,7 +21,7 @@ Records: 16,598
 
 Fields: Rank, Name, Platform, Year, Genre, Publisher, Regional Sales, Global Sales
 
-## # 🛠️ Tools and Technologies
+ # 🛠️ Tools and Technologies
 
 Excel for Data cleaning, pivot tables, initial charts
 
@@ -32,7 +32,7 @@ Python for Exploratory data analysis
 Power BI for Interactive dashboard and data storytelling
 
 
-## # ⚙️ Methods
+# ⚙️ Methods
 
 Data Cleaning (Excel)
 
@@ -41,7 +41,7 @@ Removed incomplete and duplicate records
 Standardized data types and formatted columns
 
 
-## # SQL Analysis (MySQL)
+# SQL Analysis (MySQL)
 
 > Aggregated total and average global sales
 
@@ -50,12 +50,12 @@ Standardized data types and formatted columns
 > Analyzed year-wise and region-wise performance
 
 
-## # EDA with Python
+# EDA with Python
 
 Explored distributions and relationships using Pandas
 
 
-## # Power BI Dashboard
+# Power BI Dashboard
 
 Created an interactive dashboard featuring:
 
@@ -68,7 +68,7 @@ Regional breakdowns
 Publisher analysis
 
 
-## ## 💡 Key Insights
+## 💡 Key Insights
 
 Total Global Sales: **7,623.23 million units**
 
@@ -83,16 +83,16 @@ Sales Trends: **Peak during 2000–2010; decline post-2010 (due to digital shift
 📊 Insight: The 2000s were the golden era of physical game sales. Sony and Microsoft consoles have led global gaming markets.
 
 
-## ## 📈 Dashboard 
+## 📈 Dashboard 
 
 An interactive Power BI dashboard summarizes all key insights.
 It allows filtering by year, genre, platform, and publisher, providing a clear visual understanding of global sales performance.
 
-![PowerBI Dashboard](gameSalesDashboard.png)
+![PowerBI Dashboard](ProjectScreenShots/gameSalesDashboard.png)
 
 
 
-## ## ▶️ How to Run this Project
+## ▶️ How to Run this Project
 
 1. Clone the repository from GitHub.
 
@@ -104,7 +104,7 @@ It allows filtering by year, genre, platform, and publisher, providing a clear v
 
 5. Optionally, use Python scripts for additional EDA.
 
-## # 🏁 Results & Conclusion
+# 🏁 Results & Conclusion
 
 This project demonstrates the ability to:
 
@@ -115,7 +115,7 @@ Derive meaningful business insights
 Build professional dashboards using Power BI
 It highlights strong skills in data analysis, visualization, and storytelling.
 
-## # 🔮 Future Work
+# 🔮 Future Work
 
 > Add predictive modeling to forecast future sales trends
 
@@ -125,7 +125,7 @@ It highlights strong skills in data analysis, visualization, and storytelling.
 
 
 
-## # 👨‍💻 Author & Contact
+# 👨‍💻 Author & Contact
 
 Developed by: Salman Shaikh
 
