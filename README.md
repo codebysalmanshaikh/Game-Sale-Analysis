@@ -1,151 +1,132 @@
-🎮 Video Game Sales Analysis
-📌 Project Overview
+🎮   **Video Game Sales Analysis**
 
-This project explores a dataset of global video game sales to uncover insights about platforms, genres, publishers, and regional trends.
-The focus is on descriptive analytics — understanding patterns and trends, rather than predicting future sales.
-
-Through Excel, SQL, Power BI, and Python, this project demonstrates core data analysis skills, including:
-
-Data cleaning & preparation
-
-Exploratory data analysis (EDA)
-
-SQL querying for business insights
-
-Visualization with Excel & Power BI
-
-Storytelling with data
+Analyzing global video game sales to uncover insights on platforms, genres, publishers, and regional performance using Excel, SQL, Python, and Power BI.
 
 
+**📌 Overview**
 
-🛠️ Tools & Technologies
-
-Excel → Data cleaning, Pivot tables, Charts
-
-Power BI → Interactive dashboard creation
-
-MySQL → Data querying & aggregation
-
-Python (Pandas, Matplotlib/Seaborn) → Deeper exploration (planned in next steps)
+This project focuses on descriptive analytics to understand sales trends and business performance in the video game industry.
+It demonstrates end-to-end data analysis — from cleaning and querying to visualization and storytelling — using multiple analytical tools.
 
 
+# ❓ Problem Statement
 
-📂 Dataset
+To identify key factors that influence global video game sales and determine which platforms, genres, and publishers dominate the market.
+
+# 🗂️ Dataset
 
 Source: Kaggle (Video Game Sales Dataset)
 
-Size: 16,598 records
+Records: 16,598
 
 Fields: Rank, Name, Platform, Year, Genre, Publisher, Regional Sales, Global Sales
 
+# 🛠️ Tools and Technologies
+Tool	Purpose
+Excel	Data cleaning, pivot tables, initial charts
+MySQL	SQL querying and data aggregation
+Python (Pandas, Matplotlib, Seaborn)	Exploratory data analysis
+Power BI	Interactive dashboard and data storytelling
 
 
-🔎 Workflow
+# ⚙️ Methods
 
-1. Data Cleaning
+Data Cleaning (Excel)
 
-Removed incomplete records
+Removed incomplete and duplicate records
 
-Standardized column formats (Year, Sales figures)
-
-Added calculated fields (Total_Sales_Check, Decade, Sales_Mismatch_Flag)
+Standardized data types and formatted columns
 
 
-2. Exploratory Analysis (Excel)
+# SQL Analysis (MySQL)
 
-Built Pivot Tables & Charts
+Aggregated total and average global sales
 
-Added slicers for interactive filtering
+Ranked platforms, genres, and publishers
 
-Explored trends across platforms, genres, and years
-
-
-3. SQL Analysis (MySQL)
-
-Aggregated total sales, average sales per game
-
-Ranked platforms & genres by global sales
-
-Analyzed yearly sales trends
-
-Identified top publishers and regional performance
+Analyzed year-wise and region-wise performance
 
 
-4. Power BI Dashboard (Work in Progress)
+# EDA with Python
 
-Planned visualizations:
+Explored distributions and relationships using Pandas
 
-Global sales by year
-
-Top platforms by market share
-
-Genre-wise sales distribution
-
-Regional sales breakdown
-
-Publisher performance
-
-
-5. Python Analysis (Next Step)
-
-Load dataset with Pandas
-
-Perform additional EDA (distributions, correlations)
-
-Create visualizations with Matplotlib/Seaborn
+Visualized correlations with Matplotlib/Seaborn
 
 
 
-📊 Insights
+# Power BI Dashboard (Completed)
 
-1. Overall Sales Performance
+Created an interactive dashboard featuring:
+
+Global sales trends (year-wise)
+
+Top-performing platforms and genres
+
+Regional breakdowns
+
+Publisher analysis
+
+
+
+## 💡 Key Insights
 
 Total Global Sales: 7,623.23 million units
 
-Total Games in Dataset: 5,548
-
 Average Sales per Game: ~1.37 million units
 
-💡 The gaming market is huge, but most titles sell below blockbuster levels.
+Top Platforms: PS2, Xbox 360, PS3, Wii
+
+Top Genres: Action, Sports, Shooter
+
+Sales Trends: Peak during 2000–2010; decline post-2010 (due to digital shift)
+
+📊 Insight: The 2000s were the golden era of physical game sales. Sony and Microsoft consoles have led global gaming markets.
 
 
-2. Top Performing Platforms
+## 📈 Dashboard 
 
-🎮 PS2: 1,082.91M units (885 games)
+An interactive Power BI dashboard summarizes all key insights.
+It allows filtering by year, genre, platform, and publisher, providing a clear visual understanding of global sales performance.
 
-🎮 Xbox 360: 880.97M units (578 games)
-
-🎮 PS3: 806.24M units (624 games)
-
-🎮 Wii: 806.38M units (472 games)
-
-💡 Sony’s PlayStation and Microsoft’s Xbox have historically dominated global game sales.
+(Dashboard theme: modern light mode with clean layout and color-coded visuals.)
 
 
-3. Top Genres by Sales
+## ▶️ How to Run this Project
 
-⚔️ Action: 1,484.05M units
+Clone the repository from GitHub.
 
-🏆 Sports: 1,128.38M units
+Open the dataset in Excel or import it into MySQL.
 
-🔫 Shooter: 948.58M units
+Run the provided SQL queries for aggregation and insights.
 
-🎭 Role-Playing & Platform also hold significant shares
+Use the Power BI file to explore interactive visualizations.
 
-💡 Gamers prefer action-driven, competitive, and sports-oriented titles.
+Optionally, use Python scripts for additional EDA.
+
+# 🏁 Results & Conclusion
+
+This project demonstrates the ability to:
+
+Clean, process, and analyze real-world datasets
+
+Derive meaningful business insights
+
+Build professional dashboards using Power BI
+It highlights strong skills in data analysis, visualization, and storytelling.
+
+# 🔮 Future Work
+
+> Add predictive modeling to forecast future sales trends
+
+> Integrate APIs to include modern digital sales data
+
+> Enhance dashboard with dynamic data updates
 
 
-4. Sales Trends Over Time
 
-📈 1980–1990s: Early gaming era with modest sales
+# 👨‍💻 Author & Contact
 
-🚀 2000–2010: Explosive growth, peak with PS2, Xbox 360, Wii
-
-📉 Post-2010: Sales decline (likely due to digital distribution not captured here)
-
-💡 The 2000s were the golden age of physical game sales.
-
-📌 Conclusion
-
-This project showcases the ability to analyze, visualize, and present data using Excel, SQL, Power BI, and Python.
-It highlights strong skills in data storytelling, uncovering trends in the gaming industry, and presenting insights clearly for decision-making.
+Developed by: Salman Shaikh
+GitHub: [codebysalmanshaikh](https://github.com/codebysalmanshaikh)
+Email: salmans3724@gmail.com
