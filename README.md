@@ -1,15 +1,15 @@
-🎮   **Video Game Sales Analysis**
+# 🎮   **Video Game Sales Analysis**
 
 Analyzing global video game sales to uncover insights on platforms, genres, publishers, and regional performance using Excel, SQL, Python, and Power BI.
 
 
-**📌 Overview**
+#### **📌 Overview**
 
 This project focuses on descriptive analytics to understand sales trends and business performance in the video game industry.
 It demonstrates end-to-end data analysis — from cleaning and querying to visualization and storytelling — using multiple analytical tools.
 
 
-# ❓ Problem Statement
+#### # ❓ Problem Statement
 
 To identify key factors that influence global video game sales and determine which platforms, genres, and publishers dominate the market.
 
